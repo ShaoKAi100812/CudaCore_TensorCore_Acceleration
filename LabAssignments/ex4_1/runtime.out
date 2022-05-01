@@ -1,0 +1,6 @@
+Matrix Size : MxNxK : 4096x4096x4096
+Warm-up Rounds = 0
+TEST_ROUNDS = 1
+Runtime of memory copying from host to device = 49 ms
+average time of kernel simple_fpu = 662.585 ms
+Total runtime of the CNN layer = 1257 ms

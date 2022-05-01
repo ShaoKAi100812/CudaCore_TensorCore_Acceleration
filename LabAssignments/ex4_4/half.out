@@ -1,0 +1,11 @@
+Runtime of memory copying from host to device = 32 ms
+average time of kernel simple_fpu = 1168.25 ms
+Total runtime of the CNN layer = 1678 ms
+
+Runtime of matrix transpose = 352 ms
+Tiling size = 32
+average time of kernel optimized_fpu = 111.442 ms
+
+Memory copying and matrix transpose time reduce, but average time of optimized_fpu increase.
+Guess there's operation overloading and cause time increase!?
+Total time almost the same but loss 8 bits precision

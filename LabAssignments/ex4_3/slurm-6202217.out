@@ -1,0 +1,4 @@
+Matrix Size : MxNxK : 4096x4096x4096
+Runtime of matrix transpose = 401 ms
+Tiling size = 32
+average time of kernel optimized_fpu = 130.142 ms

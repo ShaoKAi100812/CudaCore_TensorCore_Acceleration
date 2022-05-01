@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --partition=5LIL0.elec.q
+#SBATCH --gres=gpu:1
+#SBATCH --error=slurm-%j.err
+#SBATCH --output=slurm-%j.out
+#SBATCH --time=00:30:00
+
+rm *.app
+
+module load cuda10.1
+nvcc --gpu-architecture=compute_75 --gpu-code=sm_75 main.cu -o prog.app
+
+./prog.app
+

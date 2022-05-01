@@ -1,0 +1,6 @@
+Matrix Size : MxNxK : 4096x4096x4096
+Warm-up Rounds = 0
+TEST_ROUNDS = 1
+average time of CPU baseline = 243758 ms
+average time of kernel simple_fpu = 647.576 ms
+average time of kernel optimized_fpu = 89.2356 ms

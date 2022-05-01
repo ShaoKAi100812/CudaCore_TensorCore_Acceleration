@@ -1,0 +1,6 @@
+measure the runtime of im2col cpu (R=S=1) is 0 milliseconds
+measure the runtime of im2col cpu (R=S=3) is 3 milliseconds
+measure the runtime of im2col cpu (R=S=5) is 8.7 milliseconds
+measure the runtime of im2col cpu (R=S=7) is 13.95 milliseconds
+measure the runtime of im2col cpu (R=S=9) is 19.95 milliseconds
+measure the runtime of im2col cpu (R=S=11) is 27.25 milliseconds

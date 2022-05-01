@@ -1,0 +1,9 @@
+Matrix Size : MxNxK : 4096x4096x4096
+
+Runtime of memory copying from host to device = 48 ms
+average time of kernel simple_fpu = 1154.11 ms
+Total runtime of the CNN layer = 1643 ms
+
+Runtime of matrix transpose = 404 ms
+Tiling size = 32
+average time of kernel optimized_fpu = 95.2995 ms

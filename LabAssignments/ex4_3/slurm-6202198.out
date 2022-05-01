@@ -1,0 +1,3 @@
+Matrix Size : MxNxK : 4096x4096x4096
+Tiling size = 32
+average time of kernel optimized_fpu = 394.073 ms
